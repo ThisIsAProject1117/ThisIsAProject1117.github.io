@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background: linear-gradient(black, darkred);   
+}
+
+.contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: darkred;
+    border-radius: 50px;
+}
+
+.contact-left textarea {
+    height: 240px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
